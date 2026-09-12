@@ -12,4 +12,5 @@ public class Bug {
     @ManyToOne
     @JoinColumn(name = "user_id")
     private User user;
+    private String description;
 }
